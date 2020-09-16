@@ -1,0 +1,15 @@
+{
+  "name": "@huth/animate",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://tommhuth@github.com/tommhuth/animate.git",
+  "author": "Tomm Huth",
+  "license": "MIT",
+  "sideEffects": false,
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "core-js": "^3.6.5",
+    "eslint": "^6.8.0",
+    "eslint-plugin-babel": "^5.3.0"
+  }
+}
