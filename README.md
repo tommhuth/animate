@@ -1,5 +1,8 @@
 # animate
 A simple, bare bones animation utility for time-based animations of numbers and hex color values. 
+ 
+1. `npm install @huth/animate`
+2. Animate!
 
 ```js
   import animate from "@huth/animate"
