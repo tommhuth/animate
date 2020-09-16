@@ -1,5 +1,5 @@
 # animate
-A simple, bare bones animation utility that does time-based animation of numbers or hex color values. 
+A simple, bare bones animation utility for time-based animations of numbers and hex color values. 
 
 ```js
   import animate from "@huth/animate"
