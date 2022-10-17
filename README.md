@@ -12,7 +12,7 @@ A simple, bare bones animation utility for time-based animations of numbers and 
       to: 100,
       duration: 750,
       delay: 200,
-      easing: "easeOutCubic",
+      easing: (t) => t ** 3,
       render: (value) => console.log(value),
       start: () => console.log("animation started"),
       end: () => console.log("animation complete"),
@@ -25,7 +25,7 @@ A simple, bare bones animation utility for time-based animations of numbers and 
 - `from` and `to` can be either a number or a full CSS string hex color value (`#FF0000`), or an object with those values. 
 - `duration` timing in milliseconds.
 - `delay` time before animation starts, in milliseconds.
-- `easing` easing function name (see https://easings.net/) or a custom easing function that returns a value between `0` and `1`.
+- `easing` easing function that returns a value between `0` and `1`.
 - `render` callback called with the interpolated value for every animation step 
 - `start` callback called when the animation starts (after delay)
 - `end` callback called when the animation has finished
