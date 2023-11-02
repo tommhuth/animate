@@ -6,6 +6,7 @@
   "author": "Tomm Huth",
   "license": "MIT",
   "sideEffects": false,
+  "type": "module",
   "types": "./animate.d.ts",
   "dependencies": {
     "babel-eslint": "^10.1.0",
